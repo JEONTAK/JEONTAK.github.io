@@ -1,0 +1,253 @@
+@font-face {
+    font-family: 'neodgm';
+    src: url('../src/fonts/neodgm.woff2') format('woff2');
+}
+
+* {
+    font-family: 'neodgm';
+}
+
+/*-----상단 메뉴-----*/
+.container-fluid {
+    padding-top : -10px;
+    background-color: #C3C3C3;
+}
+
+.nav-link {
+    margin: 5px 5px 5px 5px;
+    color: black;
+    border-radius: 5px;
+    background-color: #939699;
+
+    font-size: 24px;
+    transition: color 0.3s;
+    transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: #5c5d5e;
+    border-radius: 5px;
+}
+/*-----상단 메뉴-----*/
+
+/*-----하단 Contact-----*/
+.contact {
+    padding: 2px 2px 2px 2px;
+    text-align: center;
+    background-color: #969696;
+}
+
+.badge {
+    display: inline-block;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* GitHub 뱃지 스타일 */
+.text-git {
+    background-color: #333;
+}
+.text-git:hover {
+    background-color: #444;
+    transform: scale(1.05);
+}
+
+/* Instagram 뱃지 스타일 */
+.text-insta {
+    background-color: #E4405F;
+    color: black;
+}
+.text-insta:hover {
+    background-color: #d73554;
+    transform: scale(1.05);
+}
+
+/* Naver 뱃지 스타일 */
+.text-naver {
+    background-color: #03C75A;
+    color: black;
+}
+.text-naver:hover {
+    background-color: #02b24e;
+    transform: scale(1.05);
+}
+
+/* Gmail 뱃지 스타일 */
+.text-gmail {
+    background-color: #D14836;
+    color: black;
+}
+.text-gmail:hover {
+    background-color: #c43d30;
+    transform: scale(1.05);
+}
+
+/* Steam 뱃지 스타일 */
+.text-steam {
+    background-color: #171a21;
+}
+.text-steam:hover {
+    background-color: #1b1f25;
+    transform: scale(1.05);
+}
+/*-----하단 Contact-----*/
+
+/*-----공통-----*/
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.body_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 20px;
+}
+
+.page_name {
+    flex: 1;
+    text-align: center;
+    font-size: 60px;
+    padding: 20px;
+}
+/*-----공통-----*/
+
+
+/*-----About Page-----*/
+
+.about_page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.about_page>img{
+    width: 500px;
+    height: auto;
+    border-radius: 40px;
+}
+
+.container.text-center {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+}
+
+.about_page .row{
+    width: 600px;
+}
+
+.about_page .col, .col-left {
+    font-size: 24px;
+    padding: 5px 10px;
+}
+
+
+.col-left {
+    font-weight: bold;
+    color: brown;
+}
+
+/*-----About Page-----*/
+
+/*-----Project Page-----*/
+.project_card{
+    flex: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.project_card .row{
+    background-color: #C3C3C3;
+    width: 800px;
+}
+
+.project_card .col, .col-left {
+    font-size: 24px;
+    padding: 5px 10px;
+}
+
+.project_card .card{
+    text-decoration: none;
+    color: black;
+}
+
+.project_card .card>img{
+    height: 300px;
+    width: inherit;
+    object-fit: cover;
+}
+
+.project_card .card-body>h5{
+    font-size: 32px;
+}
+
+.project_card .card-text{
+    font-size: 16px;
+}
+/*-----Project Page-----*/
+
+
+/*-----Favorite Page-----*/
+.favorite_card{
+    flex: 10;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    overflow-x: scroll;
+    margin-bottom: 10px;
+    scroll-behavior: smooth;
+    padding: 0 5%;
+    gap: 20px;
+    background-color: #C3C3C3;
+    width: 90%;
+}
+
+.favorite_card .row{
+    flex-wrap: nowrap;
+    display: flex; 
+    gap: 20px;
+}
+
+.favorite_card .col{
+    width: 400px;
+}
+
+.favorite_card .card{
+    text-decoration: none;
+    color: black;
+    margin: 10px 10px 10px 10px;
+    overflow: hidden;
+}
+
+.favorite_card .card>img{
+    width: 400px;
+    height: inherit;
+    object-fit: cover;
+}
+
+.favorite_card .card-body>h5{
+    font-size: 32px;
+}
+
+.favorite_card .card-text{
+    font-size: 16px;
+}

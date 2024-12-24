@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JEONTAK</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css" />
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <div class="d-flex">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <button class="nav-link" onclick="location.href='about.html'">About</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" onclick="location.href='project.html'">Project</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" onclick="location.href='favorite.html'">Favorite</button>
+                    </li>
+                </ul>
+            </div>
+            <button class="nav-link ms-auto" onclick="location.href='index.html'">JEONTAK</button>
+        </div>
+    </nav>
+</head>
+
+<body>
+
+    <div class="page_name">
+        <p>Project</p>
+    </div>
+    <div class="project_card">
+        <div class="row row-cols-1 row-cols-md-1 g-4">
+            <div class="col">
+                <a class="card" href="https://github.com/JEONTAK/progamerquiz">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Progamer Quiz</h5>
+                        <p class="card-text">리그 오브 레전드(LOL)의 프로게이머의 다양한 정보를 활용해 여러가지 퀴즈를 풀어보아요.</p>
+                        <p class="card-text">Spring, Spring JPA, JavaScript</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a class="card" href="https://github.com/JEONTAK/Network_term_project">
+                    <img src="./src/img/java_messenger.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Messenger Using JAVA</h5>
+                        <p class="card-text">오직 자바를 사용하여 메신저를 구현해 보아요.</p>
+                        <p class="card-text">Java</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a class="card" href="https://github.com/JEONTAK/MobileProgramming_termProject">
+                    <img src="./src/img/recipe.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">편의점 레시피</h5>
+                        <p class="card-text">다양한 편의점 음식의 레시피를 공유해 보아요.</p>
+                        <p class="card-text">Java, Android Studio</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a class="card" href="https://github.com/LetsGit-it/CG_TermProject">
+                    <img src="./src/img/aim_lab.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Aim-Lab</h5>
+                        <p class="card-text">웹사이트에서 바로 에임연습을 해 보아요.</p>
+                        <p class="card-text">JavaScript, html/css</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a class="card" href="https://github.com/GC221ComputerVision">
+                    <img src="./src/img/computervision.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Restore the color Using hint color map</h5>
+                        <p class="card-text">ML 모델을 사용해 주어진 Hint Color Map를 통해 색을 복원해 보아요.</p>
+                        <p class="card-text">Python, Jupyter</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col">
+                <a class="card" href="https://github.com/tnfpck0306/Unity-AR-Navigation">
+                    <img src="./src/img/ar_navi.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">AR Navigation In COEX</h5>
+                        <p class="card-text">코엑스에서 AR을 이용한 네비게이션을 사용해 보아요.</p>
+                        <p class="card-text">Unity, C#</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact">
+        <span>Contact</span>
+        <button onclick="location.href='https://github.com/JEONTAK'" target="_blank"
+            class="badge text-git">GitHub</button>
+        <button onclick="location.href='https://www.instagram.com/k4tnoej/'" target="_blank"
+            class="badge text-insta">Instagram</button>
+        <button onclick="location.href='mailto:tak980418@naver.com'" class="badge text-naver">Naver</button>
+        <button onclick="location.href='mailto:tak980418l@gmail.com'" class="badge text-gmail">Gmail</button>
+        <button onclick="location.href='https://steamcommunity.com/profiles/76561198120005849/'" target="_blank"
+            class="badge text-steam">Steam</button>
+    </div>
+</body>
+<script src="./js/index.js"></script>
+
+</html>
