@@ -24,6 +24,12 @@ const path = window.location.pathname;
 
 // URL에서 `index.html`이 포함된 경우 제거
 if (path.endsWith(".html")) {
-  const newPath = path.replace(".html", "");
-  window.history.replaceState(null, "", newPath);
+    if(path.endsWith("index.html")){
+        const newPath = path.replace("index.html", "");
+        window.history.replaceState(null, "", newPath);
+    }else{
+        const newPath = path.replace(".html", "");
+        window.history.replaceState(null, "", newPath);
+    }
+    
 }
