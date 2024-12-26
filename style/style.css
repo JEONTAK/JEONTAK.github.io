@@ -93,6 +93,15 @@
     background-color: #1b1f25;
     transform: scale(1.05);
 }
+
+/* Velog 뱃지 스타일 */
+.text-velog {
+    background-color: #34d693ef;
+}
+.text-velog:hover {
+    background-color: #34d693ef;
+    transform: scale(1.05);
+}
 /*-----하단 Contact-----*/
 
 /*-----공통-----*/
@@ -118,6 +127,12 @@ body {
     font-size: 60px;
     padding: 20px;
 }
+
+
+.page_name > h1 {
+    font-size: 100px;
+}
+
 /*-----공통-----*/
 
 
