@@ -21,3 +21,9 @@ if (window.location.pathname.endsWith("index.html") || window.location.pathname 
 
 
 const path = window.location.pathname;
+
+// URL에서 `index.html`이 포함된 경우 제거
+if (path.endsWith(".html")) {
+  const newPath = path.replace(".html", "");
+  window.history.replaceState(null, "", newPath);
+}
